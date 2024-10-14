@@ -1,0 +1,137 @@
+body{
+    margin : 0px;
+}
+
+html{
+    font-size: 16px;
+}
+/*
+.forma1{
+    background-color: red;
+    width: 100vw; 
+    height : 100vh;
+    color : white;
+    font-weight: bolder;
+}
+*/
+/*
+.forma2{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    color : white;
+}
+*/
+.forma1{
+    width : 250px;
+    height : 250px;
+    background-color: red;
+    /*
+    padding-top: 125px;
+    padding-bottom: 125px;
+    padding-left: 125px;
+    padding-right: 125px;
+    */
+    padding : 125px 50px 25px 75px;
+    /*
+    border-top: 15px solid orange;
+    border-right: 20px solid orange;
+    */
+    border : 15px solid yellow;
+
+    margin : 25px 12px 25px 12px;
+}
+
+/*Este "<span></span>" es uno de los comandos que no aplica el width y height pero si los demas*/
+.span1{ 
+    background-color: blue;
+    color : white;
+    padding : 25px;
+    border : 15px solid orange;
+    margin : 25px;
+}
+
+.span2{ 
+    background-color: green;
+    color : white;
+}
+/*
+.contenedor{
+    background-color: rgba(122, 123, 123, 0.2);
+}
+
+.uno{
+    background-color: rgba(234, 3, 5, 0.2);
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dos{
+    background-color: rgba(2, 234, 5, 0.2);
+    border: 5px solid green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.tres{
+    background-color: rgba(4, 3, 234, 0.2);
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+*/
+/*
+.uno{
+    background-color: rgba(234, 3, 5, 0.2);
+    width: 49%;
+    display : inline-block;
+}
+
+.dos{
+    background-color: rgba(2, 234, 5, 0.2);
+    width: 49%;
+    display : inline-block;
+}
+
+.tres{
+    background-color: rgba(4, 3, 234, 0.2);
+}
+
+.cuatro{
+    background-color: rgba(200, 3, 234, 0.2);
+}
+*/
+
+*{
+    /*box-sizing: content-box;*/
+    box-sizing: border-box; 
+    margin : 0;
+}
+
+/*
+.uno{
+    color : white;
+    background-color: red;
+    padding: 35px;
+    border: 5px solid green;
+    margin: 15px;
+    width: 250px;
+}
+*/
+
+.contenedor{
+    display : flex;
+    background-color: orange;
+    padding : 15px;
+}
+
+.uno{
+    background-color: green;
+    padding : 15px;
+}
+
+.dos{
+    background-color: yellow;
+    padding : 15px;
+}
